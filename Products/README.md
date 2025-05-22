@@ -40,7 +40,7 @@
 - log result
 - try/catch
 
-#### Loading and Error
+#### Loading and Error two
 
 - add loading while fetching
 - add error in catch
