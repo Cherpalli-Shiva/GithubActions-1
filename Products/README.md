@@ -15,7 +15,7 @@
           - h5.name (product title)
           - span.price($9.999)
 
-- create product.html
+- create product.htmls
 - basic structure
 
 #### Loading and Error
