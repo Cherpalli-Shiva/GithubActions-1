@@ -13,7 +13,7 @@
         - img.single-product-img.img
         - footer
           - h5.name (product title)
-          - span.price($9.99)
+          - span.price($9.999)
 
 - create product.html
 - basic structure
