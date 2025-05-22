@@ -1,4 +1,4 @@
-# Use Nginx image to serve static files
+# Use Nginx image to serve static fileeee
 FROM nginx:alpine
 
 # Remove default nginx index pages
