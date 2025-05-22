@@ -3,7 +3,7 @@ name: Build and Deploy image for products
 on:
   push:
     paths:
-      - 'Products/**'
+      - 'products/**'
     branches:
       - main
 
