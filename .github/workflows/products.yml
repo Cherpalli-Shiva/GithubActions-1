@@ -26,6 +26,6 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: ./products
+          context: ./Products
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/products:latest      
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/Products:latest      
