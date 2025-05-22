@@ -12,6 +12,22 @@ jobs:
     runs-on: self-hosted
 
     steps:
+      - name: Where am I?
+        run: |
+          echo "PWD: $(pwd)"
+          echo "HOME: $HOME"
+          ls -al
+          ls -al ..
+          ls -al ../..
+
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Show all files in workspace
+        run: |
+          echo "After checkout"
+          pwd
+          find . -type f
       - name: Checkout code
         uses: actions/checkout@v3
 
