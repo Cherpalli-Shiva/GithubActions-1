@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -24,6 +24,10 @@ jobs:
 
       - name: Debug — Print Dockerfile
         run: cat ./Products/Dockerfile || echo "Dockerfile not found!"
+      - name: Check user and groups in runner
+        run: whoami && groups
+      - name: Check docker info
+        run: docker info
     
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
