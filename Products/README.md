@@ -1,4 +1,4 @@
-## Products Projects
+## Products Project
 
 #### Structure (HTML)
 
