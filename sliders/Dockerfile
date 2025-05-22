@@ -8,7 +8,9 @@ RUN rm  -rf /usr/share/nginx/html/*
 COPY . /usr/share/nginx/html
 
 # Expose port 80
-EXPOSE 80
+EXPOSE 81
 
 # Start nginx server
 CMD ["nginx", "-g", "daemon off;"]
+
+# Note: The above Dockerfile is a simple expose to 81
