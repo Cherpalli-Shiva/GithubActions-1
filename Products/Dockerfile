@@ -1,7 +1,7 @@
 # Use Nginx image to serve static files
 FROM nginx:alpine
 
-# Remove default nginx index page
+# Remove default nginx index pages
 RUN rm  -rf /usr/share/nginx/html/*
 
 # Copy your static website files to the nginx html directories
